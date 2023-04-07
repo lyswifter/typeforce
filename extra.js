@@ -1,5 +1,6 @@
 var NATIVE = require('./native')
 var ERRORS = require('./errors')
+const Buffer = require('safe-buffer').Buffer;
 
 function _Buffer (value) {
   return Buffer.isBuffer(value)
